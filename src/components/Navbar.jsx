@@ -12,7 +12,7 @@ export const Navbar = () => {
     <nav className={styles.navbar}>
       <div className={styles.container}>
         <div className={styles.logo}>
-          <h1>Dr. Portfolio</h1>
+          <h1>Dr. Shayekh Mahmud</h1>
         </div>
         <div className={styles.menuIcon} onClick={toggleMenu}>
           <span></span>

@@ -5,19 +5,21 @@
 }
 
 .container {
-  max-width: var(--container-width);
+  max-width: 1200px; /* Explicit value for testing */
   margin: 0 auto;
   padding: 0 2rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center; /* Center the flex items */
   align-items: center;
   gap: 4rem;
   width: 100%;
+  border: 1px dashed #0077b6; /* Debug border, remove after testing */
 }
 
 .content {
   flex: 1;
   max-width: 600px;
+  min-width: 320px;
 }
 
 .content h1 {
@@ -47,9 +49,10 @@
 .imageContainer {
   flex: 1;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   max-width: 450px;
+  min-width: 320px;
 }
 
 .image {

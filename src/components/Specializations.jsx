@@ -4,39 +4,39 @@ export const Specializations = () => {
   const specializations = [
     {
       id: 1,
-      title: 'Cardiac Imaging',
-      description: 'Comprehensive imaging services including echocardiography, cardiac MRI, and cardiac CT to diagnose and monitor heart conditions.',
-      icon: '🫀'
+      title: 'Cataract Surgery',
+      description: 'Advanced cataract removal and lens implantation for restoring clear vision.',
+      icon: '👁️'
     },
     {
       id: 2,
-      title: 'Preventive Cardiology',
-      description: 'Personalized strategies to prevent heart disease, including risk assessment, lifestyle modifications, and medication management.',
-      icon: '🏃‍♀️'
+      title: 'LASIK & Refractive Surgery',
+      description: 'Laser vision correction procedures to reduce dependence on glasses and contact lenses.',
+      icon: '🔬'
     },
     {
       id: 3,
-      title: 'Heart Disease Management',
-      description: 'Treatment and management of various heart conditions including coronary artery disease, heart failure, and arrhythmias.',
-      icon: '💓'
+      title: 'Corneal Diseases',
+      description: 'Diagnosis and treatment of corneal disorders, including keratoconus and corneal infections.',
+      icon: '🦠'
     },
     {
       id: 4,
-      title: 'Women\'s Heart Health',
-      description: 'Specialized care focused on the unique cardiovascular needs and risks of women at all stages of life.',
-      icon: '👩‍⚕️'
+      title: 'Glaucoma Management',
+      description: 'Comprehensive care for glaucoma, including early detection and advanced treatment options.',
+      icon: '💊'
     },
     {
       id: 5,
-      title: 'Cardiac Rehabilitation',
-      description: 'Supervised exercise programs and education to help patients recover from heart attacks, surgery, or manage chronic heart conditions.',
-      icon: '🏥'
+      title: 'Retina & Vitreous Disorders',
+      description: 'Management of retinal diseases such as diabetic retinopathy and macular degeneration.',
+      icon: '🩺'
     },
     {
       id: 6,
-      title: 'Hypertension Management',
-      description: 'Comprehensive approaches to managing high blood pressure through medication, diet, and lifestyle changes.',
-      icon: '📊'
+      title: 'Pediatric Eye Care',
+      description: 'Specialized eye care for children, including vision screening and treatment of childhood eye conditions.',
+      icon: '👶'
     }
   ];
 

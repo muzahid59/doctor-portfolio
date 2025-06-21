@@ -12,8 +12,7 @@
   justify-content: center; /* Center the flex items */
   align-items: center;
   gap: 4rem;
-  width: 100%;
-  border: 1px dashed #0077b6; /* Debug border, remove after testing */
+  width: 90%;
 }
 
 .content {

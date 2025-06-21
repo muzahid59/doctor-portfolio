@@ -9,28 +9,28 @@ export const Testimonials = () => {
       id: 1,
       name: 'Sarah Johnson',
       role: 'Patient',
-      content: 'Dr. Smith is by far the most caring and knowledgeable cardiologist I have ever met. After struggling with heart issues for years, she correctly diagnosed my condition and developed a treatment plan that has significantly improved my quality of life.',
+      content: 'Dr. Shayekh Mahmud is the most compassionate and skilled eye specialist I have ever met. After years of struggling with vision problems, he accurately diagnosed my condition and provided a treatment plan that restored my sight and confidence.',
       avatar: '/avatar1.jpg'
     },
     {
       id: 2,
       name: 'Michael Chen',
       role: 'Patient',
-      content: 'I was extremely anxious about my heart condition, but Dr. Smith took the time to explain everything in detail and answer all my questions. Her approach to treatment was thoughtful and personalized. I feel so much better now.',
+      content: 'I was very anxious about my deteriorating vision, but Dr. Shayekh Mahmud explained everything clearly and answered all my questions. His approach was thoughtful and personalized. My eyesight has improved tremendously.',
       avatar: '/avatar2.jpg'
     },
     {
       id: 3,
       name: 'Emily Rodriguez',
       role: 'Patient',
-      content: 'When I was diagnosed with a heart condition, I was terrified. Dr. Smith not only provided exceptional medical care but also emotional support. She helped me understand my condition and gave me the tools to manage it effectively.',
+      content: 'When I was diagnosed with a complex eye condition, I was scared. Dr. Shayekh Mahmud not only provided excellent medical care but also emotional support. He helped me understand my treatment and gave me hope for the future.',
       avatar: '/avatar3.jpg'
     },
     {
       id: 4,
       name: 'Dr. James Wilson',
-      role: 'Colleague, Cardiac Surgeon',
-      content: 'I have collaborated with Dr. Smith on numerous patient cases, and her diagnostic skills are exceptional. She is thorough, detail-oriented, and always puts her patients first. I highly recommend her to anyone seeking cardiovascular care.',
+      role: 'Colleague, Ophthalmic Surgeon',
+      content: 'I have worked with Dr. Shayekh Mahmud on many cases, and his diagnostic and surgical skills in ophthalmology are outstanding. He is thorough, detail-oriented, and always puts his patients first. I highly recommend him for any eye care needs.',
       avatar: '/avatar4.jpg'
     }
   ];

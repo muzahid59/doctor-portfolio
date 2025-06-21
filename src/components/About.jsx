@@ -11,13 +11,13 @@ export const About = () => {
           </div>
           <div className={styles.text}>
             <p>
-              I'm Dr. Jane Smith, a board-certified cardiologist with over 15 years of experience in the field. I completed my medical degree at Harvard Medical School, followed by a residency at Massachusetts General Hospital and a fellowship in cardiology at the Cleveland Clinic.
+              I'm Dr. Shayekh Mahmud, a board-certified eye specialist (ophthalmologist) with over 15 years of experience in diagnosing and treating a wide range of eye conditions. I completed my medical degree at Dhaka Medical College, followed by a residency in ophthalmology at the National Institute of Ophthalmology, and advanced fellowship training in cornea and refractive surgery.
             </p>
             <p>
-              Throughout my career, I've been passionate about providing personalized care to patients with heart conditions. My approach combines evidence-based medicine with a strong focus on prevention and lifestyle modifications.
+              My passion is restoring and preserving vision for patients of all ages. I am dedicated to providing personalized, evidence-based care using the latest advancements in eye health and surgery.
             </p>
             <p>
-              I specialize in non-invasive cardiology, cardiac imaging, and heart disease prevention. My research interests include women's heart health and the impact of lifestyle on cardiovascular outcomes.
+              I specialize in cataract surgery, LASIK and refractive procedures, corneal diseases, and comprehensive eye care. My research interests include innovative treatments for corneal disorders and advancements in vision correction.
             </p>
             <div className={styles.stats}>
               <div className={styles.stat}>
@@ -25,11 +25,11 @@ export const About = () => {
                 <p>Years Experience</p>
               </div>
               <div className={styles.stat}>
-                <h3>5000+</h3>
+                <h3>7000+</h3>
                 <p>Patients Treated</p>
               </div>
               <div className={styles.stat}>
-                <h3>25+</h3>
+                <h3>30+</h3>
                 <p>Research Papers</p>
               </div>
             </div>

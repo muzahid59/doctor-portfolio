@@ -4,40 +4,33 @@ export const Education = () => {
   const education = [
     {
       id: 1,
-      degree: 'Fellowship in Cardiology',
-      institution: 'Cleveland Clinic',
-      period: '2010 - 2013',
-      description: 'Specialized training in non-invasive cardiology and cardiac imaging techniques.'
+      degree: 'Fellowship in Cornea & Refractive Surgery',
+      institution: 'National Institute of Ophthalmology',
+      period: '2012 - 2014',
+      description: 'Advanced training in corneal transplantation, LASIK, and refractive procedures.'
     },
     {
       id: 2,
-      degree: 'Residency in Internal Medicine',
-      institution: 'Massachusetts General Hospital',
-      period: '2007 - 2010',
-      description: 'Comprehensive training in diagnosing and treating a wide range of adult conditions.'
+      degree: 'Residency in Ophthalmology',
+      institution: 'National Institute of Ophthalmology',
+      period: '2009 - 2012',
+      description: 'Comprehensive training in medical and surgical eye care.'
     },
     {
       id: 3,
-      degree: 'Doctor of Medicine (MD)',
-      institution: 'Harvard Medical School',
-      period: '2003 - 2007',
-      description: 'Graduated with honors, with a focus on cardiovascular medicine.'
-    },
-    {
-      id: 4,
-      degree: 'Bachelor of Science in Biology',
-      institution: 'Stanford University',
-      period: '1999 - 2003',
-      description: 'Graduated summa cum laude with a focus on human physiology.'
+      degree: 'Doctor of Medicine (MBBS)',
+      institution: 'Dhaka Medical College',
+      period: '2003 - 2009',
+      description: 'Graduated with honors, with a focus on ophthalmology.'
     }
   ];
 
   const certifications = [
-    'Board Certification in Cardiovascular Disease',
-    'Board Certification in Internal Medicine',
-    'Advanced Cardiac Life Support (ACLS)',
-    'Certification in Cardiac CT Angiography',
-    'Certification in Adult Echocardiography'
+    'Board Certification in Ophthalmology',
+    'Fellowship in Cornea & Refractive Surgery',
+    'Member, Bangladesh Society of Cataract & Refractive Surgeons',
+    'Member, Asia-Pacific Academy of Ophthalmology',
+    'Certification in Advanced Phacoemulsification Surgery'
   ];
 
   return (
@@ -60,7 +53,7 @@ export const Education = () => {
         </div>
 
         <div className={styles.certifications}>
-          <h3>Certifications & Licenses</h3>
+          <h3>Certifications & Memberships</h3>
           <ul>
             {certifications.map((cert, index) => (
               <li key={index}>{cert}</li>

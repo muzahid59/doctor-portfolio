@@ -5,7 +5,7 @@ export const Hero = () => {
     <section id="home" className={styles.hero}>
       <div className={styles.container}>
         <div className={styles.content}>
-          <h1>Dr. Jane Smith</h1>
+          <h1>Dr. Shayekh Mahmud</h1>
           <h2>Specialized in Cardiology</h2>
           <p>
             With over 15 years of experience in diagnosing and treating 

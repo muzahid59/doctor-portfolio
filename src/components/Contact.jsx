@@ -27,16 +27,11 @@ export const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you would typically send the form data to a server
-    // This is a simulated form submission
-    
     setFormStatus({
       submitted: true,
       error: false,
       message: 'Thank you! Your appointment request has been submitted. We will contact you shortly to confirm.'
     });
-
-    // Reset form after submission
     setFormData({
       name: '',
       email: '',
@@ -58,7 +53,7 @@ export const Contact = () => {
               <div className={styles.icon}>📍</div>
               <div>
                 <h4>Address</h4>
-                <p>123 Medical Center Drive<br />Boston, MA 02115</p>
+                <p>Vision Care Eye Hospital<br />123 Medical Center Drive<br />Dhaka, Bangladesh</p>
               </div>
             </div>
             
@@ -66,7 +61,7 @@ export const Contact = () => {
               <div className={styles.icon}>📞</div>
               <div>
                 <h4>Phone</h4>
-                <p>(617) 555-0123</p>
+                <p>+880 1234-567890</p>
               </div>
             </div>
             
@@ -74,7 +69,7 @@ export const Contact = () => {
               <div className={styles.icon}>📧</div>
               <div>
                 <h4>Email</h4>
-                <p>dr.smith@heartcarespecialists.com</p>
+                <p>dr.shayekh@visioncare.com</p>
               </div>
             </div>
             
@@ -82,7 +77,7 @@ export const Contact = () => {
               <div className={styles.icon}>🕒</div>
               <div>
                 <h4>Office Hours</h4>
-                <p>Monday - Friday: 9:00 AM - 5:00 PM<br />Saturday: 9:00 AM - 12:00 PM<br />Sunday: Closed</p>
+                <p>Saturday - Thursday: 9:00 AM - 6:00 PM<br />Friday: Closed</p>
               </div>
             </div>
           </div>
